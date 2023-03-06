@@ -254,7 +254,7 @@ Agones supports Autopilot clusters in [alpha]({{<ref "/docs/Guides/feature-stage
     gcloud container clusters create-auto [CLUSTER_NAME] \
       --region=[COMPUTE_REGION] \
       --release-channel=[RELEASE_CHANNEL] \
-      --autoprovisioning-network-tags=game-server \
+      --autoprovisioning-network-tags=game-server
     ```
     Replace the following:
 
